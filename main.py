@@ -4,13 +4,13 @@ from models.Scientist import Scientist
 from models.Working import Working
 
 workers1 = Manager("Ivan", 182, True, 25)
-print(workers1.get_manager())
+print(workers1)
 
 workers2 = Scientist("Petro", 165, True)
-print(workers2.get_scientist())
+print(workers2)
 
 workers3 = Working("Payl", 187, False)
-print(workers3.get_working())
+print(workers3)
 
 workers4 = Brigadier("Ryslan", 177, True, 23)
-print(workers4.get_brigadier())
+print(workers4)

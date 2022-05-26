@@ -8,6 +8,6 @@ class Brigadier(Workers):
         self.have_a_tractor = have_a_tractor
         self.experience = experience
 
-    def get_brigadier(self) -> str:
+    def  __str__(self) -> str:
         return f'Name - {self.name}, his height is {self.height}, and he has a traktor: {self.have_a_tractor}, his ' \
-               f'experience : {self.experience}'
+               f'experience : {self.experience} years'

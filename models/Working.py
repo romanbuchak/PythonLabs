@@ -7,5 +7,5 @@ class Working(Workers):
         super(Working, self).__init__(name, height)
         self.work_in_saturday = work_in_saturday
 
-    def get_working(self) -> str:
+    def  __str__(self) -> str:
         return f'Name - {self.name}, his height is {self.height}, and he work in Saturday: {self.work_in_saturday}'

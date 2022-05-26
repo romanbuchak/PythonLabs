@@ -7,5 +7,5 @@ class Scientist(Workers):
         super(Scientist, self).__init__(name, height)
         self.have_a_patent = have_a_patent
 
-    def get_scientist(self) -> str:
+    def __str__(self) -> str:
         return f'Name - {self.name}, his height is {self.height}, and he has a patent: {self.have_a_patent}'

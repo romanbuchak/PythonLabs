@@ -8,6 +8,6 @@ class Manager(Workers):
         self.have_a_good_fee = have_a_good_fee
         self.age = age
 
-    def get_manager(self) -> str:
+    def __str__(self) -> str:
         return f'Name - {self.name}, his height is {self.height}, and he has a good fee: {self.have_a_good_fee}, his ' \
                f'age is {self.age} '
