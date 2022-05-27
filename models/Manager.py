@@ -11,3 +11,7 @@ class Manager(Workers):
     def __str__(self) -> str:
         return f'Name - {self.name}, his height is {self.height}, and he has a good fee: {self.have_a_good_fee}, his ' \
                f'age is {self.age} '
+
+text = "Slava Ukraine"
+x =slice(1)
+print(text[x])
